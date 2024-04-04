@@ -1,7 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 
-import { Navbar } from '../ui';
-
 import { HeroesRoutes } from '../heroes';
 import { LoginPage } from '../auth';
 
