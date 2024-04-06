@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Heroes-SPA/static/css/main.e6c13ad2.css",
+    "main.js": "/Heroes-SPA/static/js/main.f4f2cb25.js",
+    "static/js/453.072219f4.chunk.js": "/Heroes-SPA/static/js/453.072219f4.chunk.js",
+    "index.html": "/Heroes-SPA/index.html",
+    "main.e6c13ad2.css.map": "/Heroes-SPA/static/css/main.e6c13ad2.css.map",
+    "main.f4f2cb25.js.map": "/Heroes-SPA/static/js/main.f4f2cb25.js.map",
+    "453.072219f4.chunk.js.map": "/Heroes-SPA/static/js/453.072219f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f4f2cb25.js"
+  ]
+}
