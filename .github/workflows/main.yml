@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: wwrite
+  contents: write
 
 jobs:
   deployment:
