@@ -5,7 +5,6 @@ import { HeroCard } from "./";
 export const HeroList = ({ publisher }) => {
 
     const heroes = getHeroesByPublisher( publisher );
-    console.log(heroes);
 
     return (
         <div className="row rows-col-1 row-cols-md-3 g-3">
