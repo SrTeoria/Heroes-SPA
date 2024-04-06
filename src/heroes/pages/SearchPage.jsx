@@ -51,18 +51,24 @@ export const SearchPage = () => {
                             value={ searchText }
                             onChange={ onInputChange }
                         />
-                        <button className="btn btn- outline-primary mt-1">Search</button>
+                        <button className="btn btn-outline-primary mt-1">Search</button>
                     </form>
                 </div>
                 <div className="col-7">
                     <h4>Results</h4>
                     <hr />
 
-                    <div className="alert alert-primary" style={{ display: showSearch ? '' : 'none' }}>
+                    <div
+                        className="alert alert-primary animate__animated animate__fadeIn"
+                        style={{ display: showSearch ? '' : 'none' }}
+                    >
                         Search a hero
                     </div>
 
-                    <div className="alert alert-danger" style={{ display: showError ? '' : 'none'}}>
+                    <div
+                        className="alert alert-danger animate__animated animate__fadeIn"
+                        style={{ display: showError ? '' : 'none'}}
+                    >
                         No hero with <b> { q } </b>
                     </div>
 
