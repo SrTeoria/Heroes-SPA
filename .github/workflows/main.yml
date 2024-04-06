@@ -1,4 +1,6 @@
 name: Deploy Github Pages
+permissions:
+  contents: wwrite
 
 on:
   push:
