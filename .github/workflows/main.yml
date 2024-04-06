@@ -20,10 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm i
 
-      - name: Setup GitHub User
-        run: |
-          git config --global user.email "stabordasierra@gmail.com"
-          git config --global user.name "SrTeoria"
-      
-      - name: Run deploy script
-        run: npm run deploy
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4.0.5
+          
