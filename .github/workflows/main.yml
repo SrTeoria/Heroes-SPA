@@ -1,11 +1,12 @@
 name: Deploy Github Pages
-permissions:
-  contents: wwrite
 
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: wwrite
 
 jobs:
   deployment:
